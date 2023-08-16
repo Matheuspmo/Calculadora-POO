@@ -40,14 +40,14 @@ object FrmCalculadoraPOO: TFrmCalculadoraPOO
       TabOrder = 1
       OnClick = Btn0Click
     end
-    object Button3: TButton
+    object BtnVirgula: TButton
       Left = 160
       Top = 260
       Width = 80
       Height = 52
       Caption = ','
       TabOrder = 2
-      OnClick = Button3Click
+      OnClick = BtnVirgulaClick
     end
     object BtnIgual: TButton
       Left = 240
@@ -189,6 +189,7 @@ object FrmCalculadoraPOO: TFrmCalculadoraPOO
       Height = 52
       Caption = #8730'x'
       TabOrder = 18
+      OnClick = BtnRaizQuadradaValorClick
     end
     object BtnDivisao: TButton
       Left = 240
@@ -206,6 +207,7 @@ object FrmCalculadoraPOO: TFrmCalculadoraPOO
       Height = 52
       Caption = '%'
       TabOrder = 20
+      OnClick = BtnPorcentClick
     end
     object BtnLimpar: TButton
       Left = 80
@@ -231,6 +233,7 @@ object FrmCalculadoraPOO: TFrmCalculadoraPOO
       Height = 52
       Caption = #9003
       TabOrder = 23
+      OnClick = BtnLimparCaracterClick
     end
   end
   object PnlTelas: TPanel
